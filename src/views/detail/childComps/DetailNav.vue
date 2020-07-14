@@ -37,8 +37,10 @@ import NavBar from "../../../components/common/navbar/NavBar";
       },
       titleClick(index) {
         this.currentIndex = index
+        this.$emit('titleClick',index)
       }
-    }
+    },
+
   }
 </script>
 

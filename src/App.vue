@@ -22,7 +22,7 @@
 
 <style>
   @import "assets/css/base.css";
-  .tab-bar {
-    z-index:9;
-  }
+  /*.tab-bar {*/
+  /*  z-index:9;*/
+  /*}*/
 </style>

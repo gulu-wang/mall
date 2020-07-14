@@ -42,7 +42,6 @@
         this.imagesLength = this.detailInfo.detailImage[0].list.length
         // 获取图片的个数
       }
-
     }
   }
 </script>

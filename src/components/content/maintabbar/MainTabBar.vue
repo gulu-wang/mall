@@ -36,6 +36,6 @@ import TabBarItem from "../../common/tabbar/TabBarItem"
 
 <style scoped>
   .tab-bar {
-    /*z-index: 999;*/
+    z-index: 9;
   }
 </style>

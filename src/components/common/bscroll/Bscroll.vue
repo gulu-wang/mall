@@ -31,7 +31,7 @@
         //里面的组件是否能够点击
         click:true,
         //是否监测卷曲高度属性，当为0，1时，不检测；当为2的时候，监测手指在滑动时的卷曲高度，
-        // 手指为3的时候，还能监测惯性滑动时的卷曲高度
+        // 值为3的时候，还能监测惯性滑动时的卷曲高度
         probeType:this.probeType,
         //是否上拉加载更多属性，值为布尔类型，为false不上拉加载更多，为true时上拉加载更多
         pullUpLoad:this.pullUpLoad
@@ -45,7 +45,6 @@
         // console.log('上拉加载更多');
         this.$emit('pullUpload')
       })
-
     },
     methods: {
       scrollTo(x,y,time=500) {
@@ -61,12 +60,12 @@
       getBscrollY() {
         return this.scroll.y
       }
-
-
     }
   }
 </script>
 
 <style scoped>
-
+  .wrapper {
+    overflow: hidden;
+  }
 </style>
