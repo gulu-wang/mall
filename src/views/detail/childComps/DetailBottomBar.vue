@@ -56,14 +56,14 @@
 
 <style scoped>
   .bottom-bar {
-    position: absolute;
+    position: fixed;
     display: flex;
     height: 49px;
     bottom:0;
     left: 0;
     right: 0;
     background-color: #fff;
-    z-index: 9;
+    z-index: 10;
   }
   .bar-left {
     flex: 1;

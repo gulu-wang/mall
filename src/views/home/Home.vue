@@ -127,8 +127,6 @@
         this.getHomeGoodsData(this.currentTab)
       },
       //防抖动函数
-
-
     },
     computed:{
       showGoods() {

@@ -10,7 +10,7 @@
 </template>
 
 <script>
-  import {mapGetters} from 'vuex';
+  import {mapGetters} from 'vuex'
   import BScroll from "../../../components/common/bscroll/Bscroll";
   import CartListItem from "./CartListItem";
   export default {

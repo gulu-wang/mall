@@ -40,13 +40,16 @@
       },
       isSelectAll() {
         if(this.cartGoodsList.length === 0)  return false
-        return  this.cartGoodsList.every(item =>  item.checked === true)
+        return this.cartGoodsList.every(item =>  item.checked === true)
       }
     },
     methods:{
       submitOrder() {
         if(!this.isSelectAll){
           this.$toast.show('请选择商品',1500)
+          console.log(this.checkLen)
+        } else {
+          this.$toast.show('暂不支持提交功能',1500)
         }
       },
       selectAllChange() {
@@ -62,13 +65,14 @@
 
 <style scoped>
  .bottom-bar {
-   position: absolute;
+   position: fixed;
    display: flex;
    bottom: 49px;
    left: 0;
    right: 0;
    width: 100%;
    height: 40px;
+   z-index: 1;
  }
   .left {
     flex:3;

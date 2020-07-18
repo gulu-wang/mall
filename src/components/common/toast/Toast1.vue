@@ -17,7 +17,6 @@
       show(msg,time = 2000) {
         this.message = msg
         this.isShow = true
-        console.log('..........');
         setTimeout(()=>{
           this.message = ''
           this.isShow = false
