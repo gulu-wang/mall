@@ -1,7 +1,7 @@
 <template>
   <div class="cart">
     <nav-bar class="nav-bar">
-      <div slot="center">购物车（{{cartListLen}}）</div>
+      <div slot="center">购物车({{cartListLen}})</div>
     </nav-bar>
     <cart-goods-list class="goods-list"/>
     <cart-bottom-bar/>
